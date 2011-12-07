@@ -34,6 +34,7 @@ gem 'jquery-rails'
   # Pretty printed test output
 #  gem 'turn', '0.8.2', :require => false
 #end
+gem "cucumber-rails-training-wheels", :group => :test
 group :test, :development do
   gem 'rspec-rails', '~>2.5'
 end
