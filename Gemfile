@@ -40,6 +40,9 @@ group :test, :development do
   gem 'rspec-rails', '~>2.5'
 end
 
+# Move this line out of group :test, otherwise broken app.
+gem 'devise', '~> 1.4.3'
+
 group :test do
   gem 'cucumber-rails'
   gem 'capybara'
